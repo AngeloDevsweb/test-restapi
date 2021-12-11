@@ -2,9 +2,7 @@ const mongoose = require('mongoose')
 
 //cadena de conexion
 
-const URI = process.env.MONGODB_URI 
-            ? process.env.MONGODB_URI 
-            : 'mongodb://localhost/dbtestnative'
+const URI ='mongodb+srv://angelo:<Rociodta8921>@cluster0.tgyl4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 mongoose.connect(URI);
 
